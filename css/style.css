@@ -712,3 +712,147 @@ ol {
 .cards-link:focus .overlay-card {
   transform: translateY(0%);
 }
+
+/* FORM */
+
+.label-style {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+  /* gap: 8px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--grey-company-border);
+}
+
+.input-style {
+  width: 360px;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  color: ;
+}
+
+.label-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primary-color-tittle);
+
+  margin-top: 72px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.text-input {
+  width: 360px;
+  height: 120px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+}
+.send {
+  /* position: absolute;
+  bottom: 24px;
+  right: 120px; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--primary-whte-color);
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  background: var(--button-bg-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  gap: 10px;
+  margin: 0 auto;
+  width: 169px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+
+.privacy-link {
+}
+
+.check-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--grey-company-border);
+}
+
+.check-input {
+  margin-right: 8px;
+}
+
+.check-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+/* Foooter Form */
+
+.form-footer {
+  display: flex;
+  margin-right: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.send-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  background-color: var(--button-bg-color);
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  margin-right: 0 auto;
+  margin-left: 24px;
+}
+
+.subscribe-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--primary-whte-color);
+}
+
+.subscribe-label {
+}
+.subscribe-input {
+}
