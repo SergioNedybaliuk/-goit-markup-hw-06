@@ -860,7 +860,8 @@ ol {
   gap: 24px;
 }
 
-.subscribe-label {
+.button-span {
+  position: relative;
 }
 
 .subscribe-input {
@@ -897,6 +898,7 @@ ol {
 
 .send-icon {
   margin-left: 16px;
+  display: flex;
 }
 
 .modal-span-svg {
@@ -939,7 +941,10 @@ ol {
   fill: var(--primary-whte-color);
 }
 
-.galka-svg {
+.button-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .visualy-hidden {
