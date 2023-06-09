@@ -780,6 +780,7 @@ ol {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.2);
   border-radius: 4px;
@@ -813,49 +814,17 @@ ol {
   border-radius: 4px;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  gap: 10px; */
 }
 
 .privacy-link {
   color: var(--button-bg-color);
 }
 
-.check-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  color: var(--grey-company-border);
-}
-
 .check-input {
   margin-right: 8px;
 }
 
-.check-box {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 16px;
-  margin-bottom: 24px;
-  margin-left: 24px;
-}
-
 /* Foooter Form */
-
-/* .form-footer {
-  display: flex;
-  margin-right: 0 auto;
-  justify-content: center;
-  align-items: center;
-} */
 
 .send-footer {
   min-width: 165px;
@@ -917,69 +886,63 @@ ol {
   color: var(--primary-whte-color);
 }
 
+/* .check-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--grey-company-border);
+} */
+
 .send-icon {
   margin-left: 16px;
 }
 
 .modal-span-svg {
+}
+
+.check-box {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.check-text {
+  display: flex;
+  align-items: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: var(--grey-company-border);
+}
+
+.check-text .modal-span-svg {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
 
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
 }
 
-.div-check {
-}
-
-.check-text {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  /* display: flex;
-  align-items: center;
-  position: relative; */
-}
-
-.check-text::before {
-  content: "";
-  display: block;
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  cursor: pointer;
-  margin-right: 8px;
-  position: relative;
-}
-
-.check-input:checked + .check-text::before {
-  background-color: var(--filter-color);
-  border: none;
-  fill: var(--primary-whte-color);
-}
-
-.check-input:checked span {
+.check-input:checked + .check-text span {
   background-color: var(--filter-color);
   border: none;
   fill: var(--primary-whte-color);
 }
 
 .galka-svg {
-  display: block;
-  fill: var(--filter-bg-color);
-  top: 50%;
-  position: absolute;
-  transform: translate(25%, -50%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .visualy-hidden {
   position: absolute;
   width: 1px;
@@ -991,7 +954,7 @@ ol {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   position: relative;
 }
 
@@ -1000,6 +963,8 @@ ol {
 }
 
 .input-wrap-svg {
+  position: absolute;
+
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
