@@ -877,17 +877,6 @@ ol {
 .subscribe-input::placeholder {
   color: var(--primary-whte-color);
 }
-
-/* .check-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.04em;
-  color: var(--grey-company-border);
-} */
-
 .send-icon {
   margin-left: 16px;
   display: flex;
@@ -906,9 +895,7 @@ ol {
 }
 
 .check-text {
-  display: flex;
   align-items: center;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -925,7 +912,6 @@ ol {
   border-radius: 2px;
   margin-right: 8px;
 
-  display: flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
