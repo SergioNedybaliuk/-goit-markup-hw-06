@@ -955,6 +955,7 @@ ol {
 
 .modal-field {
   margin-bottom: 16px;
+  margin-bottom: 8px;
   position: relative;
 }
 
@@ -975,8 +976,8 @@ ol {
 }
 
 .span-text {
-  display: block;
   margin-bottom: 4px;
+  display: inline-flex;
 }
 
 .galka-svg {
