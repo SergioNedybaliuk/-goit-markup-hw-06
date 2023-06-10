@@ -938,6 +938,11 @@ ol {
   position: relative;
 }
 
+.modal-field-two {
+  margin-bottom: 16px;
+  position: relative;
+}
+
 .input-wrap {
   position: relative;
   margin-bottom: 8px;
