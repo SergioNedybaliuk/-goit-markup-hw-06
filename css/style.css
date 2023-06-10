@@ -722,12 +722,6 @@ ol {
 /* FORM */
 
 .label-style {
-  /* display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  margin-left: 24px;
-  margin-right: 24px;
-  gap: 8px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -960,6 +954,7 @@ ol {
 
 .input-wrap {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .input-wrap-svg {
