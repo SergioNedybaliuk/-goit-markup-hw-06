@@ -862,10 +862,6 @@ ol {
   gap: 24px;
 }
 
-.button-span {
-  position: relative;
-}
-
 .subscribe-input {
   width: 264px;
   height: 40px;
@@ -947,7 +943,7 @@ ol {
   fill: var(--filter-bg-color);
 }
 
-.visualy-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -958,7 +954,7 @@ ol {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   position: relative;
 }
 
@@ -981,4 +977,8 @@ ol {
 .span-text {
   display: block;
   margin-bottom: 4px;
+}
+
+.galka-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
